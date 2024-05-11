@@ -12,7 +12,6 @@ on:
 jobs:
 
   test:
-    name: Teste no Go ${{ matrix.go_version }} and ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
